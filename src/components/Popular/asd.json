@@ -1,0 +1,162 @@
+{
+    "id": "_ID_",
+    "jsonrpc": "2.0",
+    "method": "hub.scenes.create",
+    "params": {
+        "enabled": true,
+        "group_id": null,
+        "is_group": false,
+        "name": "testRule",
+        "blockType": "when",
+        "blockOptions": {
+            "then": [
+                {
+                    "blockOptions": {
+                        "method": {
+                            "args": {
+                                "item": "item",
+                                "value": "value"
+                            },
+                            "name": "setItemValue"
+                        }
+                    },
+                    "blockType": "then",
+                    "fields": [
+                        {
+                            "name": "item",
+                            "type": "item",
+                            "value": "897607_32771_1"
+                        },
+                        {
+                            "name": "value",
+                            "type": "int",
+                            "value": 10
+                        }
+                    ]
+                }
+            ],
+            "when": [
+                {
+                    "method": {
+                        "name": "or",
+                        "args": {
+                            "blocks": "blocks"
+                        }
+                    },
+                    "blockType": "then",
+                    "fields":[
+                        {
+                            "name": "blocks",
+                            "type": "blocks",
+                            "value": [
+                        {
+                            "name": "item",
+                            "type": "item",
+                            "value": "630740efe8851a5d70c99df8"
+                        },
+                        {
+                            "name": "value",
+                            "type": "int",
+                            "value": 20
+                        }
+                    ]
+                },
+            {
+                "blockType": "when",
+                "blockOptions": {
+                    "method": {
+                        "name": "or",
+                        "args": {
+                            "blocks": "blocks"
+                        }
+                    }
+                },
+                "fields": [
+                    {
+                        "name": "blocks",
+                        "type": "blocks",
+                        "value": [
+                            {
+                                "name": "item",
+                                "type": "item",
+                                "value": "630740efe8851a5d70c99df8"
+                            },
+                            {
+                                "name": "value",
+                                "type": "int",
+                                "value": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+         ]
+        }]}}
+}
+{
+    "id": "_ID_",
+    "jsonrpc": "2.0",
+    "method": "hub.scenes.create",
+    "params": {
+        "enabled": true,
+        "group_id": null,
+        "is_group": false,
+        "name": "testRule",
+        "blockType": "when",
+        "blockOptions": {
+            "then": [
+                {
+                    "blockOptions": {
+                        "method": {
+                            "args": {
+                                "item": "item",
+                                "value": "value"
+                            },
+                            "name": "setItemValue"
+                        }
+                    },
+                    "blockType": "then",
+                    "fields": [
+                        {
+                            "name": "item",
+                            "type": "item",
+                            "value": "897607_32771_1"
+                        },
+                        {
+                            "name": "value",
+                            "type": "int",
+                            "value": 10
+                        }
+                    ]
+                }
+            ],
+            "when": [{
+   "blockType":"when",
+   "blockOptions":{
+      "method":{
+         "name":"or",
+         "args":{
+            "blocks":"blocks"
+         }
+      }
+   },
+   "fields":[
+      {
+         "name":"blocks",
+         "type":"blocks",
+         "value": [
+           {
+                                        "name": "item",
+                                        "type": "item",
+                                        "value": "630740efe8851a5d70c99df8"
+                                    },
+                                    {
+                                        "name": "value",
+                                        "type": "int",
+                                        "value": 20
+                                    }
+         ]
+      }
+   ]
+}
+]}},}        
